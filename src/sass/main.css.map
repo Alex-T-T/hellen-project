@@ -1,0 +1,28 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;ACHH,AAAA,KAAK,CAAC;EACF,YAAY,CAAA,QAAC;EACb,cAAc,CAAA,QAAC;EACf,aAAa,CAAA,QAAC;EACd,oBAAoB,CAAA,QAAC;EACrB,gBAAgB,CAAA,QAAC;CACpB;;ACND,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,aAAa;CACtB;;ACFD,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC,CAAC;EACE,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;CACrB;;AAED,AAAA,EAAE;AACF,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,GAAG;EACf,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,GAAG;CACpB;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB;;AC/BD,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,MAAM;CAClB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,UAAU,CAAC;IACP,KAAK,EAAE,KAAK;GACf;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,UAAU,CAAC;IACP,KAAK,EAAE,KAAK;GACf;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,UAAU,CAAC;IACP,KAAK,EAAE,MAAM;GAChB;;;AErBL,AAAA,OAAO,CAAC;EACJ,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;EAOjB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,MAAM;EAGtB,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,WAAW;EAGnB,UAAU,EAAE,gBAAgB,CAAC,KAAK,CAAC,4BAA4B;CAQlE;;AU3BD,AAAA,iBAAiB,CAAA;EACb,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,GAAG;EACf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,MAAM;CAEzB;;AAED,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,GAAG;EACf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAEpB;;AAED,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "main.scss",
+        "utils/_veriabless.scss",
+        "utils/_visualy-hidden.scss",
+        "base/_common.scss",
+        "base/_container.scss",
+        "components/_backdrop.scss",
+        "components/_button.scss",
+        "components/_mobile-menu.scss",
+        "layout/_header.scss",
+        "layout/_hero.scss",
+        "layout/_advantages.scss",
+        "layout/_problems.scss",
+        "layout/_how-we-do.scss",
+        "layout/_our-program.scss",
+        "layout/_benefits.scss",
+        "layout/_about.scss",
+        "layout/_guarantee.scss",
+        "layout/_reviews.scss",
+        "layout/_contact-form.scss",
+        "layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
