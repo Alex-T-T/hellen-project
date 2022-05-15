@@ -1,4 +1,6 @@
-
+.about{
+    padding-bottom: 40px
+}
 .about__title{
     @include font-style (800, 20px, 26px, 0.03em);
     color: var(--main-color);
@@ -73,6 +75,9 @@ position: absolute;
     }
 }
 @media screen and (min-width: 1680px) {
+    .about{
+        padding-bottom: 120px
+    }
         .about__title{
             padding-top: 80px; 
             padding-bottom: 80px;
