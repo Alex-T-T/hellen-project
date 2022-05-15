@@ -47,7 +47,7 @@
     background-color: var(--accent-color);
 }
 .about__list{
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .about__text{
     @include font-style (500, 12px, 20px, 0.08em);
@@ -86,7 +86,7 @@
 }
 @media screen and (min-width: 1680px) {
     .about{
-        padding-bottom: 120px
+        padding-bottom: 120px;
     }
     .about__title{
         @include font-style (800, 46px, 57px, 0.03em);  
