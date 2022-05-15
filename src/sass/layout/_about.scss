@@ -6,6 +6,7 @@
     color: var(--main-color);
     margin-bottom: 20px;
 }
+
 .about__description{
     @include font-style (800, 20px, 26px, 0.03em);
     color: var(--main-color);
@@ -36,7 +37,7 @@
 }
 .about__list::after{
     content: '';
-position: absolute;
+    position: absolute;
     bottom: 0;
     left: 0;
     display: block;
@@ -61,34 +62,55 @@ position: absolute;
     color: var(--accent-color);
 }
 @media screen and (min-width: 768px){
-    .about__container{
+    .about__box{
         display: flex;
-        }   
+    } 
     .about__title{
-        padding-top: 40px; 
+        @include font-style (800, 26px, 32px, 0.03em);
+        
         padding-bottom: 40px;
     }
+    .about__item{
+        @include font-style (600, 12px, 15px, 0.06em);
+    }
+    .about__text{
+        @include font-style (500, 10px, 20px, 0.08em);
+    }
     .about__wrapper{
-        padding-top: 112px; 
         width: 402px; 
         margin-left: 60px;
+    }
+    .about__description{
+        margin-top: 0;
     }
 }
 @media screen and (min-width: 1680px) {
     .about{
         padding-bottom: 120px
     }
-        .about__title{
-            padding-top: 80px; 
-            padding-bottom: 80px;
-        }
-        .about__wrapper{
-            padding-top: 217px; 
-            width: 668px; 
-            margin-left: 172px;
-        }
-        .about__icon{
-            margin-right: 35px;
-        }
+    .about__title{
+        @include font-style (800, 46px, 57px, 0.03em);  
+        padding-bottom: 80px;
+    }
+    .about__description{
+        @include font-style (800, 30px, 37px, 0.03em);
+        margin-top: 0;
+    }
+    .about__item{
+        @include font-style (600, 16px, 20px, 0.06em);
+    }
+    .about__text{
+        @include font-style (500, 18px, 28px, 0.08em);
+    }
+    .about__link{
+        @include font-style (500, 18px, 28px, 0.08em);
+    }
+    .about__wrapper{
+        width: 668px; 
+        margin-left: 172px;
+    }
+    .about__icon{
+        margin-right: 35px;
+    }
 }
 
