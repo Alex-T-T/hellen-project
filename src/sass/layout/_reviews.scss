@@ -127,12 +127,10 @@
   margin-left: 110px;
 }
 .review__icon{
-
   flex-shrink: 0;
-  
-}
+  }
 .review__author{
-  
+  display: inline-block;
   margin-bottom: 20px;
   font-family: Montserrat;
   font-style: ExtraBold;
@@ -161,6 +159,13 @@
   font-size: 12px;
   line-height: 1, 67;
   color: #3D3D3D;
+}
+.review__wrap-img-vk{
+  display:inline;
+}
+.review__text{
+  // display: inline-block;
+  width: 412px;
 }
 
 }
