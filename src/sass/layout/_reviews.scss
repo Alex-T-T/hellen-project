@@ -1,3 +1,4 @@
+@media screen and (min-width:768px) {
   .review {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -15,11 +16,24 @@
 }
 
 .review__author-img {
+  text-align: center;
   margin-bottom: 20px;
+}
+.review__vk {
+  display: block;
+  
+  text-align: center;
 }
 .review__wrap-all{
 display: flex;
+background-color: var(--card-team-bg);
+box-shadow: 0px 4px 4px var(--shadow-team)
 }
+.review__wrap-text{
+  width: 412px;
+  margin-left: 44px;
+}
+
 .review__title {
   text-align: center;
   margin-bottom: 40px;
@@ -28,10 +42,29 @@ display: flex;
   font-size: 20px;
   line-height: 1, 31;
 }
+.review__author {
+  text-align: start;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: Montserrat;
+  font-style: ExtraBold;
+  font-size: 20px;
+  line-height: 1, 21;
+  color: #FF6B09;
+}
+.review__education {
+  margin-bottom: 20px;
+  text-align: start;
+  font-family: Montserrat;
+  font-style: 500;
+  font-size: 12px;
+  line-height: 1, 25;
+  color: #B9B9B9;
+}
 .review__comment {
   margin-bottom: 40px;
   width: 412px;
-  text-align: center;
+  text-align: start;
   font-family: Montserrat;
   font-style: 500;
   font-size: 12px;
@@ -44,6 +77,8 @@ display: flex;
 }
 .review__img:not(:last-child){
   margin-right: 32px;
+}
+
 }
 
 
