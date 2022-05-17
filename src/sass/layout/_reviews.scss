@@ -26,8 +26,9 @@
 }
 .review__wrap-all{
 display: flex;
-background-color: var(--card-team-bg);
-box-shadow: 0px 4px 4px var(--shadow-team)
+align-items: center;
+
+box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 .review__wrap-text{
   width: 412px;
