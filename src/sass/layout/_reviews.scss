@@ -19,20 +19,30 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
 .review__vk {
   display: block;
-  
   text-align: center;
 }
+
+.review__user-coment{
+  display: flex;
+}
+
 .review__wrap-all{
 display: flex;
+padding-top: 40px;
+padding-bottom: 40px;
 align-items: center;
-
 box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 .review__wrap-text{
   width: 412px;
   margin-left: 44px;
+  margin-right: 19px;
+}
+.review__wrap-img{
+  margin-left: 21px;
 }
 
 .review__title {
@@ -40,13 +50,13 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   margin-bottom: 40px;
   font-family: Montserrat;
   font-style: ExtraBold;
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1, 31;
 }
 .review__author {
   text-align: start;
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   font-family: Montserrat;
   font-style: ExtraBold;
   font-size: 20px;
@@ -63,7 +73,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   color: #B9B9B9;
 }
 .review__comment {
-  margin-bottom: 40px;
+  
   width: 412px;
   text-align: start;
   font-family: Montserrat;
@@ -74,6 +84,7 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 .review__user-img{
   display: flex;
+  margin-top: 20px;
   justify-content: center;
 }
 .review__img:not(:last-child){
@@ -84,64 +95,3 @@ box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 
 
 
-// .review__author-img {
-//   margin-left: auto;
-//   margin-right: auto;
-//   margin-bottom: 24px;
-// }
-
-// .review__vk {
-//   display: block;
-//   margin-bottom: 24px;
-//   text-align: center;
-// }
-
-// .review__author {
-//   text-align: center;
-//   margin-top: 0;
-//   margin-bottom: 16px;
-//   font-family: Montserrat;
-//   font-style: ExtraBold;
-//   font-size: 14px;
-//   line-height: 1, 21;
-//   color: #FF6B09;
-// }
-
-// .review__education {
-//   margin-left: auto;
-//   margin-right: auto;
-//   margin-bottom: 16px;
-//   width: 240px;
-//   text-align: center;
-//   font-family: Montserrat;
-//   font-style: 500;
-//   font-size: 12px;
-//   line-height: 1, 25;
-//   color: #B9B9B9;
-// }
-
-// .review__comment {
-//   margin-bottom: 40px;
-//   text-align: center;
-//   font-family: Montserrat;
-//   font-style: 500;
-//   font-size: 12px;
-//   line-height: 1, 67;
-//   color: #3D3D3D;
-// }
-
-// .accent {
-//   text-decoration: underline;
-//   color: #FF6B09;
-// }
-
-// .review__user-img {
-//   display: flex;
-//   margin-left: auto;
-//   margin-right: auto;
-
-//   width: 100%;
-//   text-align: center;
-//   align-items: center;
-//   justify-content: center;
-// }
